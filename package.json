@@ -1,0 +1,26 @@
+{
+  "name": "vector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "3.13.0"
+  },
+  "scripts": {
+    "test": "npx ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "ava": {
+    "files": [
+      "**/*.spec.js"
+    ],
+    "environmentVariables": {
+      "NODE_ENV": "test"
+    },
+    "concurrency": 5,
+    "verbose": true,
+    "failFast": true
+  }
+}

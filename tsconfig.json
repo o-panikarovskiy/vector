@@ -1,13 +1,12 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "baseUrl": "./",
+    "rootDir": "./",
+    "outDir": "./dist",
     "sourceMap": true,
     "declaration": false,
     "module": "commonjs",
     "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
@@ -16,5 +15,5 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["ESNext", "dom"]
   },
-  "include": ["*.ts"]
+  "include": ["src/**/*.ts", "index.ts"]
 }

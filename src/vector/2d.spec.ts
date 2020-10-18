@@ -1,5 +1,5 @@
 import test from 'ava';
-import { Vector } from './vector';
+import { Vector } from './2d';
 
 test('clone', (t) => {
   const v = new Vector(1, 2);
@@ -10,7 +10,7 @@ test('clone', (t) => {
 
 test('set', (t) => {
   const v = new Vector(1, 2);
-  v.set(0, -1);
+  v.set({ x: 0, y: -1 });
   t.is(v.x, 0);
   t.is(v.y, -1);
 });

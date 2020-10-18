@@ -1,4 +1,4 @@
-# vector 2d
+# Simple 2d/3d Vector
 
 ## Install
 ```
